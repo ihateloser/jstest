@@ -26,3 +26,7 @@ function simpleTrim(s){
 }
 var s=new String('   abcdef   ');
 alert(simpleTrim(s));
+
+function trim(s){
+    return s.replace(/^\s+|\s+$/g, '');//正则表达式的威力
+}
