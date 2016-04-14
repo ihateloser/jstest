@@ -1,0 +1,13 @@
+.content{
+    width:100%;
+    height: auto;
+    background: #ddaaaa;
+    overflow: hidden;
+}
+.floatbox{
+    width:150px;
+    margin: 10px;
+    height: 150px;
+    background: rebeccapurple;
+    float: left;
+}
